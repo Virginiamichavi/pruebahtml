@@ -1,0 +1,42 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: gray;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas:
+    "my-header"
+    "my-main"
+    "my-footer";
+    grid-template-rows: auto 1fr auto;
+}
+
+header{
+    grid-area: my-header;
+}
+
+main{
+    grid-area: my-main;
+
+}
+
+footer{
+    grid-area: my-footer;
+}
+
+.carousel-item img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.form-control:invalid{
+    color:red;
+}
+.form-control:valid{
+    color:green;
+}
+.form-control:focus{
+    background-color:burlywood;
+}

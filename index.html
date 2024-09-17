@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMA Taller Chapa y Pintura</title>
+    <!--CSS Css Bootstrap y Favicon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <link rel="stylesheet" href="./css/estilos.css">
+     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- header cabecera de pagina -->
+    <header>
+        <!--Nav Barra de navegacion Bootstrap-->
+        <nav class="navbar navbar-expand-lg bg-dark fw-bold" data-bs-theme="dark">
+            <div class="container-sm">
+              <a class="navbar-brand fs-3 text-danger" href="#">VMA Taller Chapa y Pintura</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">El Taller</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#firstname">Presupuesto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#firstname">Pintura</a></li>
+                      <li><a class="dropdown-item" href="#firstname">Reparacion</a></li>
+                      <li><a class="dropdown-item" href="#substituicion">Coche de Substituicion</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <!--Main cuerpo de pagina-->
+    <main>
+
+        <h1 class="text-center text-white fw-bold py-3">Bienvenido a nuestro taller</h1>
+         <!--Carousel Bootstrap-->
+        <div class="container-sm w-75 d-none d-md-block mb-3">       
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/imagenes/taller/taller10.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/imagenes/taller/taller11.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/imagenes/taller/taller5.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!--Grupo Cards Bootstrap-->
+        <div class="container-sm">
+            <div class="row row-cols-1 row-cols-md-2 g-4 mb-3">
+                <div class="col-lg-6 col-md-6">
+                  <div class="card">
+                    <img src="./assets/imagenes/taller/taller6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="card">
+                    <img src="./assets/imagenes/taller/taller7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="card">
+                    <img src="./assets/imagenes/taller/taller8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="card">
+                    <img src="./assets/imagenes/taller/taller9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>                    
+                  </div>
+                  
+                </div>
+              </div>
+        </div>
+
+        <!--Card Bootstrap-->
+        <div class="container-sm text-white fw-bold mb-3" id="substituicion">
+
+            <div class="row">            
+              <div class="col-xs-4 col-lg-6 rounded">
+                <p class="fs-3 fw-bold my-3 text-center d-none d-md-block">Nuestra localizacion</p>
+                <iframe id="mapa" class="g-3 mx-4 mb-3 d-none d-md-block" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11760.750173020979!2d1.5663104!3d42.530070699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sca!2sad!4v1726501707029!5m2!1sca!2sad" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="card w-100">
+                    <img src="./assets/imagenes/taller/audi.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Coche de Substituicion</h5>
+                      <p class="card-text">Mientras su coche está en reparación, 
+                        tendras derecho a uno de substituicion</p>
+                      <a href="#firstname" class="btn btn-primary">Solicitar</a>
+                    </div>                
+                  </div>
+               
+              </div>
+
+              <!--Formulario-->
+          
+              <div class="col-md-6 my-4 g-4 col-sm-6 bg-dark rounded py-3 my-2">
+                <h3 class="fw-bold mb-3 text-center">Información</h3>
+                
+                <form name="formulario" method="post" action="#" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="firstname" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="Nombre"
+                         pattern="[a-zA-Z]{3,15}" aria-label="First name" required>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="lastname" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Apellidos"
+                        pattern="[a-z A-Z]{4,40}" aria-label="Last name" required>
+                      </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4" pattern="[a-z A-Z0-9_-.]+@" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="telefono" class="form-label">Telefono</label>
+                      <input type="tel" class="form-control" id="telefono" pattern="{9}" required>
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Dirección</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" pattern="[a-z A-Z0-9]{5,50}" required>
+                    </div>                    
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">Ciudad</label>
+                      <input type="text" class="form-control" id="inputCity" pattern="[a-z A-Z0-9]{5,20}" required>
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <label for="inputZip" class="form-label">Codigo Postal</label>
+                      <input type="text" class="form-control" id="inputZip" pattern="[0-9]{10}" required>
+                    </div>                 
+                    <div class="row row-cols-1 md-6 px-5 my-4">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                          <label class="form-check-label" for="gridCheck">
+                           Aceptar termos y condiciones
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-12">                        
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="reset" class="btn btn-primary">Borrar</button>
+                      </div>
+                  </form>
+              </div>             
+            </div>
+          </div>
+
+
+    </main>
+
+    <!--Footer pie de pagina-->
+    <footer>
+        <div class="container-fluid bg-dark" data-bs-theme="dark">
+            <div class="py-3">
+              <ul class="nav justify-content-center border-bottom border-danger pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+              </ul>
+              <p class="text-center text-white">© 2024 Company, Inc</p>
+            </div>
+          </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
